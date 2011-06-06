@@ -1,0 +1,164 @@
+/* OpenAT HTML pages styles */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12pt;
+    font-weight: bold;
+    COLOR: #E53B30;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10pt;
+    COLOR: #E53B30;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10pt;
+}
+
+ul.code {
+    font-family:Courier;
+    font-size:10pt;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10pt;
+    font-style: normal;
+    text-decoration: none;
+    COLOR: #978c16;
+}
+a:visited {
+    COLOR: #978c16;
+    text-decoration: none;
+}
+a:hover {
+    COLOR: #978c16;
+    text-decoration: underline;
+}
+a:active {
+    COLOR: #978c16;
+    text-decoration: underline;
+}
+
+a.IndexTable {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:8pt;
+    font-style: normal;
+    text-decoration: none;
+    COLOR: #978c16;
+}
+a.IndexTable:visited {
+    COLOR: #978c16;
+    text-decoration: none;
+}
+a.IndexTable:hover {
+    COLOR: #978c16;
+    text-decoration: underline;
+}
+a.IndexTable:active {
+    COLOR: #978c16;
+    text-decoration: underline;
+}
+
+a.LinkH1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16pt;
+    font-weight: bold;
+    text-decoration: none;
+    COLOR: #978c16;
+}
+a.LinkH1:visited {
+    COLOR: #978c16;
+    text-decoration: none;
+}
+a.LinkH1:hover {
+    COLOR: #978c16;
+    text-decoration: underline;
+}
+a.LinkH1:active {
+    COLOR: #978c16;
+    text-decoration: underline;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10pt;
+}
+
+p.update {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10pt;
+    font-style: italic;
+}
+
+span.code {
+    font-weight: bold;
+}
+
+span.keyw {
+    COLOR: blue;
+}
+
+span.type {
+    COLOR: red;
+}
+
+span.cmdtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:11pt;
+    COLOR: #E53B30;
+}
+
+span.apidescr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10pt;
+    font-style: italic;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10pt;
+}
+
+td.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10pt;
+    COLOR: #E53B30;
+    font-weight: bold;
+}
+
+a.LinkBlack {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10pt;
+    text-decoration: none;
+    COLOR: #000000;
+}
+a.LinkBlack:visited {
+    COLOR: #000000;
+    text-decoration: none;
+}
+a.LinkBlack:hover {
+    COLOR: #000000;
+    text-decoration: underline;
+}
+a.LinkBlack:active {
+    COLOR: #000000;
+    text-decoration: underline;
+}
+
+span.Release {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12pt;
+    font-weight: bold;
+    text-decoration: none;
+    COLOR: #E53B30;
+}

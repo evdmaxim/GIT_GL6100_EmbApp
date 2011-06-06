@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebs:OATBinaryProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ebs="http://ebs.ecorediag/1.0" usedOSId="com.wavecom.openat.ide.spm.lib.os.model (6.35.0.201102280758)" usedFirmwareId="com.wavecom.openat.ide.spm.fw.model (7.45.0.201102220653)" usedAPIId="ADL" usedBaselineId="com.wavecom.openat.softwaresuite (2.35.0.201103111042)">
+  <usedPluginsId>com.wavecom.openat.ide.spm.lib.plugin.model.APP-LIB (3.0.0.2010)</usedPluginsId>
+  <usedPluginsId>com.wavecom.openat.ide.spm.lib.plugin.model.SMS-PDU (2.1.0.2010)</usedPluginsId>
+  <usedPluginsId>com.wavecom.openat.ide.spm.lib.plugin.model.Security (1.5.0.201102282015)</usedPluginsId>
+  <usedPluginsId>com.wavecom.openat.ide.spm.lib.plugin.model.WIP (5.41.0.201102280815)</usedPluginsId>
+  <usedPluginsId>com.wavecom.openat.ide.spm.lib.plugin.model.WMMP-LIB (3.0.0.2010)</usedPluginsId>
+  <etpBinConfigurationDescriptor dwlHeader="V2 header format (GenDwl tool)">
+    <memoryType href="file:/usr/lib/eclipse/dropins/com.wavecom.openat.ide.spm.fw.model.7.45.0.201102220653_7.45.0.201102220653/resources/package.xmi#//@basebandConfigs.0/@memoryTypes.1"/>
+    <baseband href="file:/usr/lib/eclipse/dropins/com.wavecom.openat.ide.spm.fw.model.7.45.0.201102220653_7.45.0.201102220653/resources/package.xmi#//@basebandConfigs.0"/>
+  </etpBinConfigurationDescriptor>
+  <configurations mbsConfigId="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296" usedDWLHeader="V2 header format (GenDwl tool)" usedMemoryTypeName="1MB+"/>
+  <configurations usedTraceLevel="None" mbsConfigId="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042" usedDWLHeader="V2 header format (GenDwl tool)" usedMemoryTypeName="1MB+"/>
+</ebs:OATBinaryProject>

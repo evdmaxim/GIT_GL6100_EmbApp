@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ebs:OATLibraryProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ebs="http://ebs.ecorediag/1.0" usedOSId="com.wavecom.openat.ide.spm.lib.os.model (6.35.0.201102280758)" usedAPIId="ADL">
+  <usedPluginsId>com.wavecom.openat.ide.spm.lib.plugin.model.WIP (5.41.0.201102280815)</usedPluginsId>
+  <etpLibConfigurationDescriptor/>
+  <configurations mbsConfigId="com.wavecom.openat.ide.ebs.armelfgcc.library.debugcfg.1082083667"/>
+  <configurations usedTraceLevel="None" mbsConfigId="com.wavecom.openat.ide.ebs.armelfgcc.library.releasecfg.1987756493"/>
+</ebs:OATLibraryProject>

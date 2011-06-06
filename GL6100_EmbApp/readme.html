@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="resources/OpenAT.css"/>
+<title>
+Open AT
+ 
+ 5.41
+ sample - WIP-TCP Client</title>
+</head>
+<body>
+<table border="0" cellspacing="0" cellpadding="0" width="620">
+<tr>
+<td width="120" align="left">
+<img border="0" width="100" src="resources/OpenATLogo.png"/>
+</td>
+<td width="500" align="left" valign="top">
+<a href="http://www.sierrawireless.com">
+<img border="0" src="resources/logo.png"/>
+</a>
+<br/>
+<a href="http://forum.sierrawireless.com" class="LinkBlack">http://forum.sierrawireless.com</a>
+<br/>
+<br/>
+<span class="Release">
+        Open AT <sup>®</sup>&nbsp;
+        
+         Release version:<br/>
+        5.41</span>
+</td>
+</tr>
+</table>
+<h1>Sample - WIP-TCP Client</h1>
+<ul>
+<li>
+<a href="&#10;    #Changes" class="&#10;    IndexTable&#10;    ">Changes</a>
+</li>
+<li>
+<a href="&#10;    #Dependencies" class="&#10;    IndexTable&#10;    ">Dependencies</a>
+</li>
+<li>
+<a href="&#10;    #Application Description" class="&#10;    IndexTable&#10;    ">Application Description</a>
+</li>
+</ul>
+<p>&nbsp;</p>
+<a name="Changes">
+<h2>Changes</h2>
+</a>
+<ul>
+<li>V2.00 : Initial revision</li>
+</ul>
+<p>&nbsp;</p>
+<a name="Dependencies">
+<h2>Dependencies</h2>
+</a>
+<p>This sample depends on the following libraries :</p>
+
+<ul>
+<li>WIPLIB<br/>&nbsp;</li>
+</ul>
+
+<p>&nbsp;</p>
+<a name="Application Description">
+<h2>Application Description</h2>
+</a>
+
+<p>This WIP sample application initializes the TCP/IP stack, either
+over PPP (UART or GSM) client/server, or over GPRS. Its configuration
+is tuned by customizing the following defines at the beginning of
+cfg_gprs.c for a GPRS connection, or at cfg_uart_client/server.c for a
+PPP over UART, or at cfg_gsm_client/server.c for a PPP over GSM
+DATA:</p>
+
+<ul>
+<li>OVER_UART_PPP_CLIENT / OVER_UART_PPP_SERVER /
+OVER_GSM_PPP_CLIENT / OVER_GSM_PPP_SERVER / OVER_GPRS, in
+appli.c: exactly one of these macros has to be defined, to decide
+which connection mode is selected.<br/>&nbsp;</li>
+</ul>
+
+<p>Once the sample is correctly initialized, the bearer connection
+will start:</p>
+
+<ul>
+<li>Once the stack is initialized, the TCP client sample will:
+- Connects a TCP client socket to the TCP server on host [PEER_STRADDR]
+on port [PEER_PORT]
+- Sends all data in [snd_buffer], possibly in several steps, by using
+[WIP_CEV_WRITE] events to control data flow.
+- Puts everything received by the socket into [rcv_buffer], until
+the table is full.<br/>&nbsp;</li>
+</ul>
+
+<br/>
+<p class="update">
+Updated: 28-February-2011, 08:15;
+</p>
+</body>
+</html>

@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296" moduleId="org.eclipse.cdt.core.settings" name="[Target]_ARM_ELF_GCC_Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.armelfgcc.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.armelfgcc.CompileErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.build.core.WZPackerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.build.core.GenDwlErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dwl" artifactName="GL6100_EmbApp" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,com.wavecom.openat.ide.ebs.executionMode=com.wavecom.openat.ide.ebs.executionMode.targetMode,com.wavecom.openat.ide.buildArtefactType=com.wavecom.openat.ide.ebs.core.binaryproject" description="" id="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296" name="[Target]_ARM_ELF_GCC_Debug" parent="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg">
+					<folderInfo id="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296." name="/" resourcePath="">
+						<toolChain id="com.wavecom.openat.ide.ebs.armelfgcc.binary.dbgtoolChain1.1972157590" name="[Target] ARM ELF GCC" superClass="com.wavecom.openat.ide.ebs.armelfgcc.binary.dbgtoolChain1">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.wavecom.openat.ide.ebs.build.core.targetPlatform.728320359" isAbstract="false" name="Target Platform" superClass="com.wavecom.openat.ide.ebs.build.core.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/GL6100_EmbApp/[Target]_ARM_ELF_GCC_Debug}" id="com.wavecom.openat.ide.ebs.build.core.builder.515531178" keepEnvironmentInBuildfile="false" name="Open AT Generic Builder" superClass="com.wavecom.openat.ide.ebs.build.core.builder"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.zip.860768832" name="Binary packer [ZIP]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.zip"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.1348743283" name="Binary packer [LZMA]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.thumb.1783003144" name="Binary packer [LZMA Thumb]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.thumb"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.addchk.1507218188" name="Checksum computer" superClass="com.wavecom.openat.ide.ebs.build.core.addchk"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.wpb.1103841175" name="DWL packed binary builder" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.gendwl.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb.1609569135" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.bin.1795288478" name="DWL binary builder" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.genbin.wpb.1970067744" name="DWL packed binary builder [V1]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.genbin.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.genbin.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.genbin.header.enabler.wpb.929172741" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.genbin.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.genbin.bin.262972460" name="DWL binary builder [V1]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.genbin.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.506261074" name="ARM ELF GCC C Compiler" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1720661642" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes.1818574091" name="Include paths (-I)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ethernet_driver/itf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.APP-LIB/3.0.0.2010}/APP-LIB/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.SMS-PDU/2.1.0.2010}/SMS-PDU/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.Security/1.5.0.201102282015}/Security/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.41.0.201102280815}/WIP/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WMMP-LIB/3.0.0.2010}/WMMP-LIB/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GL6100_EmbApp/itf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GL6100_EmbApp/inc}&quot;"/>
+								</option>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols.1561977076" name="Defined symbols (-D)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__OAT_API_VERSION__=635"/>
+									<listOptionValue builtIn="false" value="__APPLIB_PLUGIN_VERSION__=300"/>
+									<listOptionValue builtIn="false" value="__SMSPDU_PLUGIN_VERSION__=201"/>
+									<listOptionValue builtIn="false" value="__Security_PLUGIN_VERSION__=105"/>
+									<listOptionValue builtIn="false" value="__WIP_PLUGIN_VERSION__=541"/>
+									<listOptionValue builtIn="false" value="__WMMPLIB_PLUGIN_VERSION__=300"/>
+									<listOptionValue builtIn="false" value="__DEBUG_APP__"/>
+									<listOptionValue builtIn="false" value="__arm"/>
+									<listOptionValue builtIn="false" value="__GNU_GCC__"/>
+								</option>
+								<inputType id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.inputType.83762530" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.inputType"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.400307967" name="ARM ELF GCC C++ Compiler" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1749331185" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes.450208784" name="Include paths (-I)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ethernet_driver/itf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.APP-LIB/3.0.0.2010}/APP-LIB/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.SMS-PDU/2.1.0.2010}/SMS-PDU/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.Security/1.5.0.201102282015}/Security/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.41.0.201102280815}/WIP/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WMMP-LIB/3.0.0.2010}/WMMP-LIB/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GL6100_EmbApp/itf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GL6100_EmbApp/inc}&quot;"/>
+								</option>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols.1223396687" name="Defined symbols (-D)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__OAT_API_VERSION__=635"/>
+									<listOptionValue builtIn="false" value="__APPLIB_PLUGIN_VERSION__=300"/>
+									<listOptionValue builtIn="false" value="__SMSPDU_PLUGIN_VERSION__=201"/>
+									<listOptionValue builtIn="false" value="__Security_PLUGIN_VERSION__=105"/>
+									<listOptionValue builtIn="false" value="__WIP_PLUGIN_VERSION__=541"/>
+									<listOptionValue builtIn="false" value="__WMMPLIB_PLUGIN_VERSION__=300"/>
+									<listOptionValue builtIn="false" value="__DEBUG_APP__"/>
+									<listOptionValue builtIn="false" value="__arm"/>
+									<listOptionValue builtIn="false" value="__GNU_GCC__"/>
+								</option>
+								<inputType id="com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.inputType.enabled.1600826285" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.inputType.enabled"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.archiver.1554107963" name="ARM ELF GCC Archiver" superClass="com.wavecom.openat.ide.ebs.armelfgcc.archiver"/>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.CppLinker.1015926436" name="ARM ELF GCC C++ Linker" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CppLinker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.820893009" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.objcopy.1536112396" name="Binary copier" superClass="com.wavecom.openat.ide.ebs.armelfgcc.objcopy"/>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.dd.832669510" name="Binary aligner" superClass="com.wavecom.openat.ide.ebs.armelfgcc.dd"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="itf"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="com.wavecom.openat.ide.ebs.build.core.settingsprovider" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting>
+						<entry flags="BUILTIN|READONLY|VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/ethernet_driver/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/basic"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.APP-LIB/3.0.0.2010}/APP-LIB/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.SMS-PDU/2.1.0.2010}/SMS-PDU/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.Security/1.5.0.201102282015}/Security/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.41.0.201102280815}/WIP/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WMMP-LIB/3.0.0.2010}/WMMP-LIB/itf"/>
+						<entry flags="" kind="macro" name="__OAT_API_VERSION__" value="635"/>
+						<entry flags="" kind="macro" name="__APPLIB_PLUGIN_VERSION__" value="300"/>
+						<entry flags="" kind="macro" name="__SMSPDU_PLUGIN_VERSION__" value="201"/>
+						<entry flags="" kind="macro" name="__Security_PLUGIN_VERSION__" value="105"/>
+						<entry flags="" kind="macro" name="__WIP_PLUGIN_VERSION__" value="541"/>
+						<entry flags="" kind="macro" name="__WMMPLIB_PLUGIN_VERSION__" value="300"/>
+						<entry flags="" kind="macro" name="__DEBUG_APP__" value=""/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="ethernet_driver;com.wavecom.openat.ide.ebs.armelfgcc.library.debugcfg.1082083667" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+			</storageModule>
+			<storageModule moduleId="scannerConfiguration">
+				<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+				<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="makefileGenerator">
+						<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042;com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042.;com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.56239681;com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.inputType.686703330">
+					<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig"/>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="makefileGenerator">
+							<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+				</scannerConfigBuildInfo>
+				<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296;com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296.;com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.400307967;com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.inputType.enabled.1600826285">
+					<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig"/>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="makefileGenerator">
+							<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+				</scannerConfigBuildInfo>
+				<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042;com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042.;com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.497621605;com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.inputType.enabled.1836883916">
+					<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig"/>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="makefileGenerator">
+							<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+				</scannerConfigBuildInfo>
+				<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296;com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296.;com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.506261074;com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.inputType.83762530">
+					<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig"/>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="makefileGenerator">
+							<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+				</scannerConfigBuildInfo>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042" moduleId="org.eclipse.cdt.core.settings" name="[Target]_ARM_ELF_GCC_Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.armelfgcc.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.armelfgcc.CompileErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.build.core.WZPackerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.wavecom.openat.ide.ebs.build.core.GenDwlErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="dwl" artifactName="GL6100_EmbApp" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,com.wavecom.openat.ide.ebs.executionMode=com.wavecom.openat.ide.ebs.executionMode.targetMode,com.wavecom.openat.ide.buildArtefactType=com.wavecom.openat.ide.ebs.core.binaryproject" description="" id="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042" name="[Target]_ARM_ELF_GCC_Release" parent="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg">
+					<folderInfo id="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042." name="/" resourcePath="">
+						<toolChain id="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasetoolChain1.1006021886" name="[Target] ARM ELF GCC" superClass="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasetoolChain1">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.wavecom.openat.ide.ebs.build.core.targetPlatform.563151037" isAbstract="false" name="Target Platform" superClass="com.wavecom.openat.ide.ebs.build.core.targetPlatform"/>
+							<builder buildPath="${workspace_loc:/GL6100_EmbApp/[Target]_ARM_ELF_GCC_Release}" id="com.wavecom.openat.ide.ebs.build.core.builder.519798655" keepEnvironmentInBuildfile="false" name="Open AT Generic Builder" superClass="com.wavecom.openat.ide.ebs.build.core.builder"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.zip.282376076" name="Binary packer [ZIP]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.zip"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.469676930" name="Binary packer [LZMA]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.thumb.32299037" name="Binary packer [LZMA Thumb]" superClass="com.wavecom.openat.ide.ebs.build.core.wzpacker.lzma.thumb"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.addchk.1765661335" name="Checksum computer" superClass="com.wavecom.openat.ide.ebs.build.core.addchk"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.wpb.1925953929" name="DWL packed binary builder" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.gendwl.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb.245235887" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.gendwl.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.bin.1307574239" name="DWL binary builder" superClass="com.wavecom.openat.ide.ebs.build.core.bin.gendwl.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.genbin.wpb.218209429" name="DWL packed binary builder [V1]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.genbin.wpb">
+								<option defaultValue="com.wavecom.openat.ide.ebs.build.core.genbin.header.bincomp" id="com.wavecom.openat.ide.ebs.build.core.genbin.header.enabler.wpb.1117914319" name="Header type" superClass="com.wavecom.openat.ide.ebs.build.core.genbin.header.enabler.wpb" valueType="enumerated"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.build.core.bin.genbin.bin.602630106" name="DWL binary builder [V1]" superClass="com.wavecom.openat.ide.ebs.build.core.bin.genbin.bin"/>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.56239681" name="ARM ELF GCC C Compiler" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1650317238" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes.1291818435" name="Include paths (-I)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ethernet_driver/itf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.APP-LIB/3.0.0.2010}/APP-LIB/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.SMS-PDU/2.1.0.2010}/SMS-PDU/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.Security/1.5.0.201102282015}/Security/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.41.0.201102280815}/WIP/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WMMP-LIB/3.0.0.2010}/WMMP-LIB/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GL6100_EmbApp/itf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GL6100_EmbApp/inc}&quot;"/>
+								</option>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols.470208312" name="Defined symbols (-D)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__OAT_API_VERSION__=635"/>
+									<listOptionValue builtIn="false" value="__APPLIB_PLUGIN_VERSION__=300"/>
+									<listOptionValue builtIn="false" value="__SMSPDU_PLUGIN_VERSION__=201"/>
+									<listOptionValue builtIn="false" value="__Security_PLUGIN_VERSION__=105"/>
+									<listOptionValue builtIn="false" value="__WIP_PLUGIN_VERSION__=541"/>
+									<listOptionValue builtIn="false" value="__WMMPLIB_PLUGIN_VERSION__=300"/>
+									<listOptionValue builtIn="false" value="__arm"/>
+									<listOptionValue builtIn="false" value="__GNU_GCC__"/>
+								</option>
+								<inputType id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.inputType.686703330" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.inputType"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.497621605" name="ARM ELF GCC C++ Compiler" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1019694745" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes.275821734" name="Include paths (-I)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.oat.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ethernet_driver/itf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/basic&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.APP-LIB/3.0.0.2010}/APP-LIB/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.SMS-PDU/2.1.0.2010}/SMS-PDU/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.Security/1.5.0.201102282015}/Security/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.41.0.201102280815}/WIP/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WMMP-LIB/3.0.0.2010}/WMMP-LIB/itf&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GL6100_EmbApp/itf}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GL6100_EmbApp/inc}&quot;"/>
+								</option>
+								<option id="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols.1194793532" name="Defined symbols (-D)" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CCompilerSymbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__OAT_API_VERSION__=635"/>
+									<listOptionValue builtIn="false" value="__APPLIB_PLUGIN_VERSION__=300"/>
+									<listOptionValue builtIn="false" value="__SMSPDU_PLUGIN_VERSION__=201"/>
+									<listOptionValue builtIn="false" value="__Security_PLUGIN_VERSION__=105"/>
+									<listOptionValue builtIn="false" value="__WIP_PLUGIN_VERSION__=541"/>
+									<listOptionValue builtIn="false" value="__WMMPLIB_PLUGIN_VERSION__=300"/>
+									<listOptionValue builtIn="false" value="__arm"/>
+									<listOptionValue builtIn="false" value="__GNU_GCC__"/>
+								</option>
+								<inputType id="com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.inputType.enabled.1836883916" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.inputType.enabled"/>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.archiver.680521684" name="ARM ELF GCC Archiver" superClass="com.wavecom.openat.ide.ebs.armelfgcc.archiver"/>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.CppLinker.397630246" name="ARM ELF GCC C++ Linker" superClass="com.wavecom.openat.ide.ebs.armelfgcc.CppLinker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1106198365" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.objcopy.705590705" name="Binary copier" superClass="com.wavecom.openat.ide.ebs.armelfgcc.objcopy"/>
+							<tool id="com.wavecom.openat.ide.ebs.armelfgcc.dd.865128906" name="Binary aligner" superClass="com.wavecom.openat.ide.ebs.armelfgcc.dd"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="itf"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="scannerConfiguration">
+				<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+				<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="makefileGenerator">
+						<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+					<buildOutputProvider>
+						<openAction enabled="true" filePath=""/>
+						<parser enabled="true"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+					<buildOutputProvider>
+						<openAction enabled="false" filePath=""/>
+						<parser enabled="false"/>
+					</buildOutputProvider>
+					<scannerInfoProvider id="specsFile">
+						<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+						<parser enabled="true"/>
+					</scannerInfoProvider>
+				</profile>
+				<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042;com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042.;com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.56239681;com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.inputType.686703330">
+					<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig"/>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="makefileGenerator">
+							<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+				</scannerConfigBuildInfo>
+				<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296;com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296.;com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.400307967;com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.inputType.enabled.1600826285">
+					<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig"/>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="makefileGenerator">
+							<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+				</scannerConfigBuildInfo>
+				<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042;com.wavecom.openat.ide.ebs.armelfgcc.binary.releasecfg.825016042.;com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.497621605;com.wavecom.openat.ide.ebs.armelfgcc.CppCompiler.inputType.enabled.1836883916">
+					<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig"/>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="makefileGenerator">
+							<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+				</scannerConfigBuildInfo>
+				<scannerConfigBuildInfo instanceId="com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296;com.wavecom.openat.ide.ebs.armelfgcc.binary.debugcfg.958898296.;com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.506261074;com.wavecom.openat.ide.ebs.armelfgcc.CCompiler.inputType.83762530">
+					<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig"/>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="makefileGenerator">
+							<runAction arguments="-E -P -v -dD" command="" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/${specs_file}&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'g++ -E -P -v -dD &quot;${plugin_state_location}/specs.cpp&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+						<buildOutputProvider>
+							<openAction enabled="true" filePath=""/>
+							<parser enabled="true"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-c 'gcc -E -P -v -dD &quot;${plugin_state_location}/specs.c&quot;'" command="sh" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.ads.OatAdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-eabi-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armeabigcc.OatArmEabiG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-eabi-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfGccScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="arm-elf-gcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.armelfgcc.OatArmElfG++ScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="arm-elf-g++" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @Cspecs@" command="tcc" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+					<profile id="com.wavecom.openat.ide.ebs.rvds.OatRvdsCppScannerConfig">
+						<buildOutputProvider>
+							<openAction enabled="false" filePath=""/>
+							<parser enabled="false"/>
+						</buildOutputProvider>
+						<scannerInfoProvider id="specsFile">
+							<runAction arguments="-E @CPPspecs@" command="tcpp" useDefault="true"/>
+							<parser enabled="true"/>
+						</scannerInfoProvider>
+					</profile>
+				</scannerConfigBuildInfo>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="com.wavecom.openat.ide.ebs.build.core.settingsprovider" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting>
+						<entry flags="BUILTIN|READONLY|VALUE_WORKSPACE_PATH|RESOLVED" kind="includePath" name="/ethernet_driver/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.os.model/6.35.0.201102280758}/ADL/basic"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.APP-LIB/3.0.0.2010}/APP-LIB/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.SMS-PDU/2.1.0.2010}/SMS-PDU/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.Security/1.5.0.201102282015}/Security/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WIP/5.41.0.201102280815}/WIP/itf"/>
+						<entry flags="BUILTIN|READONLY|RESOLVED" kind="includePath" name="${package_loc:com.wavecom.openat.ide.spm.lib.plugin.model.WMMP-LIB/3.0.0.2010}/WMMP-LIB/itf"/>
+						<entry flags="" kind="macro" name="__OAT_API_VERSION__" value="635"/>
+						<entry flags="" kind="macro" name="__APPLIB_PLUGIN_VERSION__" value="300"/>
+						<entry flags="" kind="macro" name="__SMSPDU_PLUGIN_VERSION__" value="201"/>
+						<entry flags="" kind="macro" name="__Security_PLUGIN_VERSION__" value="105"/>
+						<entry flags="" kind="macro" name="__WIP_PLUGIN_VERSION__" value="541"/>
+						<entry flags="" kind="macro" name="__WMMPLIB_PLUGIN_VERSION__" value="300"/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="ethernet_driver;com.wavecom.openat.ide.ebs.armelfgcc.library.releasecfg.1987756493" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier"/>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="GL6100_EmbApp.com.wavecom.openat.ide.ebs.armelfgcc.projectType.binary.1699367558" name="" projectType="com.wavecom.openat.ide.ebs.armelfgcc.projectType.binary"/>
+	</storageModule>
+</cproject>
